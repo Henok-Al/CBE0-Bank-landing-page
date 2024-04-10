@@ -30,10 +30,11 @@ const Navbar = () => {
           <NavLinks />
         </ul>
         <div className="md:block hidden">
-          <button className="bg-primary text-[#FBBF24] bg-black px-6 py-2 rounded-lg">
-            Internet Banking
-          </button>
-        </div>
+  <button className="bg-primary text-[#FBBF24] bg-black px-6 py-2 rounded-lg text-lg md:text-xl">
+    Internet Banking
+  </button>
+</div>
+
         {/* Mobile nav */}
         <ul
           className={`
@@ -50,11 +51,7 @@ const Navbar = () => {
             </Link>
           </li>
           <NavLinks />
-          <div className="py-5">
-            <button className="bg-primary bg-blue-500 px-6 py-2 rounded-full">
-              Get Started
-            </button>
-          </div>
+          
         </ul>
       </div>
     </nav>
