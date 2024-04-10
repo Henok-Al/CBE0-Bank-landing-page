@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export const CarouselSlider = () => {
   return (
-    <div className="h-screen mb-60">
+    <div className="h-screen  mb-60">
       <Carousel>
-        <Image src="/images/img1.jpg" width={600} height={600} alt="img1 " />
+        <Image src="/images/img1.jpg" width={600} height={600} alt="img1 " priority />
         <Image src="/images/img2.png" width={600} height={600} alt="img2 " />
         <Image src="/images/img3.png" width={600} height={600} alt="img3 " />
         <Image src="/images/img4.jpg" width={600} height={600} alt="img4 " />

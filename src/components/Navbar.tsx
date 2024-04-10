@@ -16,7 +16,7 @@ const Navbar = () => {
      <nav className=" fixed top-0 left-0 z-50 w-full bg-white shadow-md">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <Image src="/logo.jpg" alt="logo" width={40} height={40} className="md:cursor-pointer h-9" />
+          <Image src="/logo.jpg" alt="logo" width={40} height={40} className="md:cursor-pointer" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             {open ? <FaTimes /> : <FaBars />} {/* Using Font Awesome icons */}
           </div>

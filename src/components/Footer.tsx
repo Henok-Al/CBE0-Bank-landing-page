@@ -9,7 +9,7 @@ function Footer() {
       <Image
         src="/footer-svg.png"
         width={100}
-        height={1000}
+        height={100}
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
@@ -36,7 +36,9 @@ function Footer() {
             </ul>
           </div>
           <div className="w-full md:w-1/4 lg:w-1/6 mb-6 md:mb-0 flex flex-col items-center">
-            <h3 className="text-lg font-semibold mb-2 underline ">WORK WITH US</h3>
+            <h3 className="text-lg font-semibold mb-2 underline ">
+              WORK WITH US
+            </h3>
 
             <ul>
               <li>
@@ -49,7 +51,7 @@ function Footer() {
                 <a href="#">POS </a>
               </li>
               <li>
-                <a href="#">CBE Birr Agents.</a>
+                <a href="#">CBE Birr Agents</a>
               </li>
             </ul>
           </div>

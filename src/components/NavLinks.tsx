@@ -39,7 +39,7 @@ const NavLinks = () => {
                         {sublink.Head}
                       </h1>
                       {sublink.sublink.map((slink, slinkIndex) => (
-                        <li key={slinkIndex} className="text-sm text-gray-600 my-2.5">
+                        <li key={slink.name} className="text-sm text-gray-600 my-2.5">
                           <Link href={slink.link} className="hover:text-primary text-[#FBBF24]">
                             {slink.name}
                           </Link>
@@ -59,7 +59,7 @@ const NavLinks = () => {
                   <h1
                     onClick={() =>
                       setActiveSubHeading(
-                        activeSubHeading !== sublink.Head ? sublink.Head : ""
+                        activeSubHeading !== sublink.Head ? sublink.Head.toString() : ""
                       )
                     }
                     className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center md:pr-0 pr-5"
